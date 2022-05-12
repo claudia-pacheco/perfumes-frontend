@@ -14,13 +14,10 @@ function Nav() {
                             <Link to="/"> Home</Link>
                         </li>
                         <li>
-                            <Link to="/dogs"> View Dogs</Link>
+                            <Link to="/brands"> Brands</Link>
                         </li>
                         <li>
-                            <Link to="/dogs/create">Create Dog</Link>
-                        </li>
-                        <li>
-                            <Link to="/messages">Messages</Link>
+                            <Link to="/perfumes">Perfumes</Link>
                         </li>
 
                         <li>
