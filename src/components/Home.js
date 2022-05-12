@@ -1,5 +1,4 @@
 import * as React from 'react';
-import Categories from './Categories.js';
 import Fragrances from './Fragrances.js';
 // import ProductSmokingHero from './modules/views/ProductSmokingHero';
 // import ProductValues from './modules/views/ProductValues';
@@ -14,7 +13,6 @@ function Home() {
         <>
             <Intro />
             <Fragrances />
-            <Categories />
             {/* <ProductHowItWorks /> */}
             {/* <ProductCTA /> */}
             {/* <ProductSmokingHero /> */}
