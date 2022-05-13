@@ -62,7 +62,7 @@ function Brands() {
     useEffect(() => {
         axios({
             method: "get",
-            url: "http://localhost:8000/brands/",
+            url: "https://cloud9-scents.herokuapp.com/brands/",
         })
             .then((response) => {
                 console.log(`brands data: `);
