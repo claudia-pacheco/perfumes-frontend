@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import Box from "@mui/material/Box";
 import { Button, Toolbar } from "@mui/material";
 import logo from "../assets/cloud9-logoo.png";
@@ -8,7 +8,7 @@ function Nav() {
         <>
             <header>
                 <Toolbar justifyContent="space-between" position="fixed">
-                    <img src={logo} height="100"></img>
+                    <img src={logo} alt="logo" height="100"></img>
                     <Button href="/"> Home</Button>
                     <Button href="/brands"> Brands</Button>
                     <Button href="/perfumes">Perfumes</Button>
