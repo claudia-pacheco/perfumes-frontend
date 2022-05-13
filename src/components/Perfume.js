@@ -1,5 +1,5 @@
 function Perfume() {
-    <div> Perfume</div>
+    <div> Perfume</div>;
 }
 
-export default Perfume
+export default Perfume;
