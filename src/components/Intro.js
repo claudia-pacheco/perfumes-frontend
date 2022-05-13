@@ -32,9 +32,7 @@ export default function Intro() {
                 Enjoy the finest fragrances where art meets perfume
             </Typography>
 
-
             <Button
-
                 color="secondary"
                 variant="contained"
                 size="large"
