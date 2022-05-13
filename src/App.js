@@ -8,6 +8,7 @@ import Home from "./components/Home.js";
 import Register from "./components/Register.js";
 import Perfumes from "./components/Perfumes.js";
 import Perfume from "./components/Perfume.js";
+import Brand from "./components/Brand.js";
 
 function App() {
   return (
@@ -19,10 +20,10 @@ function App() {
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
             <Route path="/brands" element={<Brands />} />
+            <Route path="/brands/id" element={<Brand />} />
             <Route path="/perfumes" element={<Perfumes />} />
-            <Route path="/perfume/:perfumeId" element={<Perfume />} />
+            <Route path="/perfume/id" element={<Perfume />} />
           </Route>
-
         </Routes>
       </Router>
     </div>

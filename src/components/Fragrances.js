@@ -43,7 +43,40 @@ function Fragrances() {
               </Typography>
             </Box>
           </Grid>
-
+          <Grid item xs={12} md={4}>
+            <Box sx={item}>
+              <Box
+                component="img"
+                src=""
+                alt="Fragrance"
+                sx={{ height: 55 }}
+              />
+              <Typography variant="h6" sx={{ my: 5 }}>
+                Fragrance2
+              </Typography>
+              <Typography variant="h5">
+                {'Fragrance caption'}
+                {'caption continued.'}
+              </Typography>
+            </Box>
+          </Grid>
+          <Grid item xs={12} md={4}>
+            <Box sx={item}>
+              <Box
+                component="img"
+                src="/static/themes/onepirate/productValues3.svg"
+                alt="clock"
+                sx={{ height: 55 }}
+              />
+              <Typography variant="h6" sx={{ my: 5 }}>
+                Fragrance3
+              </Typography>
+              <Typography variant="h5">
+                {'Fragrance caption'}
+                {'caption continued.'}
+              </Typography>
+            </Box>
+          </Grid>
         </Grid>
       </Container>
     </Box>

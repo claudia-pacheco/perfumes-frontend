@@ -7,14 +7,14 @@ function Nav() {
     return (
         <>
             <header>
-                <Toolbar justifyContent="space-between" position="fixed">
+                <Toolbar justifyContent="space-between" position="fixed" >
                     <img src={logo} alt="logo" height="100"></img>
-                    <Button href="/"> Home</Button>
-                    <Button href="/brands"> Brands</Button>
-                    <Button href="/perfumes">Perfumes</Button>
+                    <Button href="/" sx={{ color: "#ff8396" }}> Home</Button>
+                    <Button href="/brands" sx={{ color: "#ff8396" }}> Brands</Button>
+                    <Button href="/perfumes" sx={{ color: "#ff8396" }}>Perfumes</Button>
                     <Box sx={{ flex: 1, display: "flex", justifyContent: "flex-end" }}>
-                        <Button href="/login">Sign In</Button>
-                        <Button href="/register">Register</Button>
+                        <Button href="/login" sx={{ color: "#ff8396" }} >Sign In</Button>
+                        <Button href="/register" sx={{ color: "#ff8396" }}>Register</Button>
                     </Box>
                 </Toolbar>
             </header>

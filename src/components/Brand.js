@@ -6,7 +6,7 @@ import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import ButtonBase from "@mui/material/ButtonBase";
 import Container from "@mui/material/Container";
-import Typography from "../components/Typography";
+import Typography from "./Typography";
 
 const ImageBackdrop = styled("div")(({ theme }) => ({
     position: "absolute",
@@ -71,13 +71,12 @@ function Brands() {
                 // reload
                 // Setting the data to State
                 setBrands(response.data);
-
             })
             .catch((error) => {
                 console.log(error);
             });
     }, []);
-    console.log('this is id', brands.id);
+
     return (
         <Container component="section" sx={{ mt: 8, mb: 4 }}>
             <Typography variant="h4" marked="center" align="center" component="h2">
@@ -133,7 +132,7 @@ function Brands() {
                         </ImageIconButton>
                     ))
                 ) : (
-                    <Box> <Typography>Loading</Typography></Box>
+                    <Box> Loading</Box>
                 )}
             </Box>
         </Container>
