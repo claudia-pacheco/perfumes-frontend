@@ -25,7 +25,7 @@ function Copyright(props) {
             {...props}
         >
             {"Copyright © "}
-            <Link color="#7B3A21" href="http://localhost:3000/home">
+            <Link color="#7B3A21" href="https://cloud9-scents.herokuapp.com/home">
                 Cloud9
             </Link>{" "}
             {new Date().getFullYear()}
@@ -41,7 +41,7 @@ export default function SignInSide() {
         event.preventDefault();
         const data = new FormData(event.currentTarget);
         try {
-            const resp = await axios.post("http://localhost:8000/api/token", data);
+            const resp = await axios.post("https://cloud9-scents.herokuapp.com/api/token", data);
             console.log(resp);
             console.log("this is refresh token", resp.data.refresh);
         } catch (e) { }
