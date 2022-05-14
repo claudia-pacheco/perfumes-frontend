@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, Link } from "react";
 import axios from "axios";
 import Button from "./Button";
 import * as React from "react";
@@ -58,7 +58,6 @@ const ImageIconButton = styled(ButtonBase)(({ theme }) => ({
 
 function Brands() {
     const [brands, setBrands] = useState([]);
-
     useEffect(() => {
         axios({
             method: "get",
@@ -67,7 +66,6 @@ function Brands() {
             .then((response) => {
                 console.log(`brands data: `);
                 console.log(response.data);
-
                 // reload
                 // Setting the data to State
                 setBrands(response.data);
@@ -77,7 +75,6 @@ function Brands() {
                 console.log(error);
             });
     }, []);
-    console.log('this is id', brands.id);
     return (
         <Container component="section" sx={{ mt: 8, mb: 4 }}>
             <Typography variant="h4" marked="center" align="center" component="h2">
@@ -92,7 +89,8 @@ function Brands() {
                         <ImageIconButton
                             key={brand.id}
                             component="a"
-                            href={`/brands/${brand.id}`}
+                            href={`/brands/${brand.id}`
+                            }
                         >
                             <Box
                                 sx={{
@@ -131,9 +129,14 @@ function Brands() {
                                 </Typography>
                             </Button>
                         </ImageIconButton>
+
                     ))
                 ) : (
-                    <Box> <Typography>Loading</Typography></Box>
+                    <Box> <Typography
+                        component="h3"
+                        variant="h6"
+                        color="inherit"
+                        className="imageTitle">Loading</Typography></Box>
                 )}
             </Box>
         </Container>

@@ -11,7 +11,7 @@ const item = {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
-    px: 5,
+    px: 5
 };
 
 function Perfumes() {
@@ -60,9 +60,6 @@ function Perfumes() {
 
                                             <Typography variant="h6" sx={{ my: 5 }}>
                                                 {perfume.perfume_name}
-                                            </Typography>
-                                            <Typography variant="h5" sx={{ mb: 5 }}>
-                                                {perfume.description}
                                             </Typography>
                                         </Box>
                                     </Grid>
