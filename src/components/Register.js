@@ -50,7 +50,7 @@ export default function Register() {
                 data
             );
             console.log(resp);
-            if (resp.status == 201) {
+            if (resp.status === 201) {
                 navigate("/login")
             }
         } catch (e) { }

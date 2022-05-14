@@ -48,7 +48,7 @@ export default function SignInSide() {
             const resp = await axios.post("https://cloud9-scents.herokuapp.com/api/token", data);
             console.log(resp);
             console.log("this is refresh token", resp.data.refresh);
-            if (resp.status == 200) {
+            if (resp.status === 200) {
                 navigate("/brands")
             }
         } catch (e) { }
