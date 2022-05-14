@@ -103,7 +103,7 @@ function Brands() {
                                     backgroundSize: "cover",
                                     backgroundRepeat: "no-repeat",
                                     backgroundPosition: "center 40%",
-                                    backgroundImage: `url(${brand.creators_pic})`,
+                                    // backgroundImage: `url(${brand.creators_pic})`,
                                 }}
                             />
                             <ImageBackdrop className="imageBackdrop" />

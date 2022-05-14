@@ -4,7 +4,7 @@ import Typography from '../components/Typography';
 import IntroLayout from './IntroLayout';
 
 import backgroundImage from '../assets/intro.jpeg'
-
+// Hello Test
 export default function Intro() {
     return (
         <IntroLayout

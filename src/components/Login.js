@@ -15,6 +15,8 @@ import Typography from "@mui/material/Typography";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import axios from "axios";
 import backgroundImg from "../assets/login-picture.png";
+import { useNavigate } from "react-router-dom";
+
 
 function Copyright(props) {
     return (
@@ -37,6 +39,8 @@ function Copyright(props) {
 const theme = createTheme();
 
 export default function SignInSide() {
+    const navigate = useNavigate()
+
     const handleSubmit = async (event) => {
         event.preventDefault();
         const data = new FormData(event.currentTarget);
@@ -44,6 +48,9 @@ export default function SignInSide() {
             const resp = await axios.post("https://cloud9-scents.herokuapp.com/api/token", data);
             console.log(resp);
             console.log("this is refresh token", resp.data.refresh);
+            if (resp.status == 200) {
+                navigate("/brands")
+            }
         } catch (e) { }
         console.log({
             username: data.get("username"),

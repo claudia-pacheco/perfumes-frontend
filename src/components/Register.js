@@ -15,6 +15,8 @@ import Typography from "@mui/material/Typography";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import axios from "axios";
 import backgroundImg from "../assets/register-pic.webp";
+import { useNavigate } from "react-router-dom";
+
 function Copyright(props) {
     return (
         <Typography
@@ -36,6 +38,8 @@ function Copyright(props) {
 const theme = createTheme();
 
 export default function Register() {
+    const navigate = useNavigate()
+
     const handleSubmit = async (event) => {
         event.preventDefault();
         const data = new FormData(event.currentTarget);
@@ -46,6 +50,9 @@ export default function Register() {
                 data
             );
             console.log(resp);
+            if (resp.status == 201) {
+                navigate("/login")
+            }
         } catch (e) { }
 
         console.log({
