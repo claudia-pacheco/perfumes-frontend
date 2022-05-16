@@ -54,7 +54,9 @@ function Brand() {
                     <Box component="img"
                         height='450px'
                         src={brand.creators_pic}
-                        alt="brand-creator">
+                        alt="brand-creator"
+                        sx={{ mr: 4 }}>
+
                     </Box>
                     <Box>
                         <Box

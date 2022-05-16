@@ -22,7 +22,7 @@ function App() {
             <Route path="/brands" element={<Brands />} />
             <Route path="/brands/:brandId" element={<Brand />} />
             <Route path="/perfumes" element={<Perfumes />} />
-            <Route path="/perfume/:id" element={<Perfume />} />
+            <Route path="/perfumes/:perfumeId" element={<Perfume />} />
           </Route>
         </Routes>
       </Router>

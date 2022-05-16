@@ -4,7 +4,6 @@ import Button from "@mui/material/Button";
 import CssBaseline from "@mui/material/CssBaseline";
 import TextField from "@mui/material/TextField";
 import FormControlLabel from "@mui/material/FormControlLabel";
-
 import Checkbox from "@mui/material/Checkbox";
 import Link from "@mui/material/Link";
 import Paper from "@mui/material/Paper";
@@ -39,6 +38,7 @@ function Copyright(props) {
 const theme = createTheme();
 
 export default function SignInSide() {
+
     const navigate = useNavigate()
 
     const handleSubmit = async (event) => {
@@ -49,6 +49,11 @@ export default function SignInSide() {
             console.log(resp);
             console.log("this is refresh token", resp.data.refresh);
             if (resp.status === 200) {
+                localStorage.setItem("access", resp.data.access);
+                localStorage.setItem("refresh", resp.data.refresh);
+
+                console.log('localstorage ', localStorage)
+
                 navigate("/brands")
             }
         } catch (e) { }

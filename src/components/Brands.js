@@ -1,4 +1,4 @@
-import { useEffect, useState, Link } from "react";
+import { useEffect, useState } from "react";
 import axios from "axios";
 import Button from "./Button";
 import * as React from "react";
@@ -78,7 +78,7 @@ function Brands() {
     return (
         <Container component="section" sx={{ mt: 8, mb: 4 }}>
             <Typography variant="h4" marked="center" align="center" component="h2">
-                For all tastes and all desires
+                Our Niche Portfolio
             </Typography>
             <Typography variant="body2" align="center" color="inherit" sx={{ mt: 2 }}>
                 Discover the experience
