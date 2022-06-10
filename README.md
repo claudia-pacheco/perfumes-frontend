@@ -27,9 +27,10 @@ This time the backend was developed using Python with a Django REST framework th
 
 ## How it works
 
-The concept of this project is to allow users to access it as their fragrance wardrobe where they can see any fragrance and even create their own fictional scent. This enables users to explore the perfume world in more depth by getting to know a variety of brands and notes of the scents.
+The concept of this project is to allow users to access it as their fragrance wardrobe where they can see any fragrance and even create their own fictional scent. This enables them to explore the perfume world in more depth by getting to know a variety of brands and notes of the scents.
 
 ## Build
+
 
 
 ## Styling 
