@@ -98,7 +98,9 @@ This can be easily done by wrapping the specific component around ```withRoot()`
 
 ## Challenges and Wins
 
-This time around I found the challenge and wins were quite 50-50. Definitely found the Django framework quite complex compared to previous ones I have used. The terminology and syntax were quite difficult to grasp compared to previous frameworks. There is so much to keep track of when initially setting up a project with Django that I got confused at times. On a brighter note, I am very pleased with the styling achieved in such little amount of time. 
+This time around I found the challenge and wins were quite 50-50. Definitely found the Django framework quite complex compared to previous ones I have used. The terminology and syntax were quite difficult to grasp compared to previous frameworks. There is so much to keep track of when initially setting up a project with Django that I got confused at times. 
+
+On a brighter note, I am very pleased with the styling achieved in such little amount of time. Using a syling library was a challenge I wanted to take. Although the concepts were new and sometimes not always the most intuitive, I really enjoyed using MaterialUI.
 
 ## Key Learnings
 
