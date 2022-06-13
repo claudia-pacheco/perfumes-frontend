@@ -1,6 +1,6 @@
 ## Project 4: Cloud9 Scents ☁️
 
-This is the fourth and last project associated with the General Assembly Software Engineering Flex course I’ve been taking for the past 24 weeks. I decided to go solo and develop a Full Stack app to showcase a perfume gallery where users can see and create fragrances. 
+This is the fourth and last project associated with the General Assembly Software Engineering Flex course. I decided to go solo and develop a Full Stack app to showcase a perfume gallery where users can see and create fragrances. 
 
 Deployed at [Cloud9 Scents](https://cloud9-scents.netlify.app/) <br>
 Backend code can be found [here](https://github.com/claudia-pacheco/perfumes-backend)
@@ -38,20 +38,20 @@ I started off with designing the relationship models I would use in my backend w
 
 <img width="1000" alt="Screenshot 2022-05-04 at 13 24 38" src="https://user-images.githubusercontent.com/94257616/173052412-15ab1b7d-19ca-4fc7-b1aa-981309f2f4ee.png">
 
-This really helped putting into perspective what models I would really need for the app and their one-to-one, many-to-one or many-to-many relationships. Although I stayed on track for most of it, I discarded the notes model as it didn't really need to be separate - I just put it down as a part of the Fragrance model. 
+This really helped put into perspective what models I would really need for the app and their one-to-one, many-to-one or many-to-many relationships. Although I stayed on track for most of it, I discarded the notes model as it didn't really need to be separate - I just put it down as a part of the Fragrance model. 
 I also did not include the comments, should I have had more time this is something I would have liked to implement. 
 
-In terms of wwireframing, I used excalidraw to visualise what my App would roughly look like.
+In terms of wireframing, I used Excalidraw to visualise what my app would roughly look like.
 
 <img src="https://user-images.githubusercontent.com/94257616/173053525-d5276e47-876e-4a04-bede-bc1fb4011dd4.png" width="700">
 
-Planning didn't take that long, however the original idea I had in mind was for the app to be a perfume gallery where fragrances are displayed. As I was doing the models relationships and wireframing, I realised I didn't really have any functionality between them. Therefore, I had to slightly adjust to concept and allow users to create their own scents too. This way I would be able to explore relationships between at least 2 models.
+Planning didn't take that long, however the original idea I had in mind was for the app to be a perfume gallery where fragrances are displayed. As I was doing the models relationships and wireframing, I realised I didn't really have any functionality between them. Therefore, I had to slightly adjust the concept and allow users to create their own scents too. This way I would be able to explore relationships between at least 2 models.
 
 ### Development 
 
 #### Backend
 
-Compared to my previous project, using Django framework for the backend was quite challenging. It definitely has a higher complexity and I did struggle at times. I spent 90% of the profect time on my Backend as I kept on having challenges. I finally implemented basic permissions and authorisation for instance, to check whether the user logged in is the creator of that specific fragrance in order to amend it.
+Compared to my previous project, using Django framework for the backend was quite challenging. It definitely has a higher complexity and I did struggle at times. I spent 90% of the project time on my Backend as I kept on having challenges. I finally implemented basic permissions and authorisation for instance, to check whether the user logged in is the creator of that specific fragrance in order to amend it.
 
 This was done by implementing a ```creator foreign key``` to the ```Perfume model```. 
 
@@ -90,7 +90,7 @@ I felt like I needed a break from coding logic and I'm normally quite confident 
 <img width="900" src="https://user-images.githubusercontent.com/94257616/173064001-599bd045-8623-4385-9df1-d4f36890ca7d.png">
 
 
-Initially I struggled how to style components and what the termininology for each is but soon it all made sense. I used the ```withRoot``` component which applies the same styling to the whole page without having to recode it.
+Initially I struggled with how to style components and what the terminology for each is but soon it all made sense. I used the ```withRoot``` component which applies the same styling to the whole page without having to recode it.
 
 This can be easily done by wrapping the specific component around ```withRoot()``` eg:
 
@@ -98,13 +98,13 @@ This can be easily done by wrapping the specific component around ```withRoot()`
 
 ## Challenges and Wins
 
-This time around I found the challenge and wins were quite 50-50. Definitely found the Django framework quite complex compared to previous ones I have used. On a brighter note, I am very pleased with the styling achieved in such little amount of time. 
+This time around I found the challenge and wins were quite 50-50. Definitely found the Django framework quite complex compared to previous ones I have used. The terminology and syntax were quite difficult to grasp compared to previous frameworks. There is so much to keep track of when initially setting up a project with Django that I got confused at times. On a brighter note, I am very pleased with the styling achieved in such little amount of time. 
 
 ## Key Learnings
 
-One of the major key learnings I will take from this project is definitely not spending an unreasonable amount of time dwelling on bugs and rather move on and take a break. I should have split my time wisely so I would complete all the functionality I intended. As it stands now, my project didn't meet all the functionality I once had in mind when planning. It can be quite challenging to meet all these expectations in such a short timeframe. Would I have allowed more time for my Frontend, I would've got a lot more logic done.
+One of the major key learnings I will take from this project is definitely not spending an unreasonable amount of time dwelling on bugs and rather move on and take a break. I should have split my time wisely so I would complete all the functionality I intended. As it stands now, my project didn't meet all the functionality I once had in mind when planning. It can be quite challenging to meet all these expectations in such a short timeframe. If I had allowed more time for my Frontend, I would've got a lot more logic done.
 
-However, I also challenged myself to learn last minute a styling library which is quite complex and succeeded. Working with one on this project was one of my goals and the end result is very pleasing. I tend to focus more in JavaScript/React coding rather than Styling, so this was a change.
+However, I also challenged myself to learn at the last minute a styling library which is quite complex and succeeded. Working with one on this project was one of my goals and the end result is very pleasing. I tend to focus more on JavaScript/React coding rather than styling, so this was a change.
 
 ## Future Improvements
 
