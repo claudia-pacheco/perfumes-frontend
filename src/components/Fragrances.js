@@ -11,71 +11,47 @@ const item = {
   px: 5,
 };
 
+const fragranceCategories = [
+  {
+    label: 'Floral',
+    description: 'Delicate and romantic notes of rose, jasmine, and peony.',
+    icon: '🌸',
+  },
+  {
+    label: 'Woody & Oud',
+    description: 'Rich, deep compositions of sandalwood, cedar, and rare agarwood.',
+    icon: '🪵',
+  },
+  {
+    label: 'Fresh & Citrus',
+    description: 'Crisp, uplifting blends of bergamot, neroli, and sea salt.',
+    icon: '🍋',
+  },
+];
+
 function Fragrances() {
   return (
     <Box
       component="section"
       sx={{ display: 'flex', overflow: 'hidden', bgcolor: 'secondary.light' }}
     >
-      <Container sx={{ mt: 15, mb: 30, display: 'flex', position: 'relative' }}>
-        <Box
-          component="img"
-          src=""
-          alt="Fragrance"
-          sx={{ pointerEvents: 'none', position: 'absolute', top: -180 }}
-        />
+      <Container sx={{ mt: 15, mb: 15, display: 'flex', position: 'relative' }}>
         <Grid container spacing={5}>
-          <Grid item xs={12} md={4}>
-            <Box sx={item}>
-              <Box
-                component="img"
-                src=""
-                alt="Fragrance"
-                sx={{ height: 55 }}
-              />
-              <Typography variant="h6" sx={{ my: 5 }}>
-                Fragrance1
-              </Typography>
-              <Typography variant="h5">
-                {'Fragrance caption'}
-                {'caption continued.'}
-              </Typography>
-            </Box>
-          </Grid>
-          <Grid item xs={12} md={4}>
-            <Box sx={item}>
-              <Box
-                component="img"
-                src=""
-                alt="Fragrance"
-                sx={{ height: 55 }}
-              />
-              <Typography variant="h6" sx={{ my: 5 }}>
-                Fragrance2
-              </Typography>
-              <Typography variant="h5">
-                {'Fragrance caption'}
-                {'caption continued.'}
-              </Typography>
-            </Box>
-          </Grid>
-          <Grid item xs={12} md={4}>
-            <Box sx={item}>
-              <Box
-                component="img"
-                src="/static/themes/onepirate/productValues3.svg"
-                alt="clock"
-                sx={{ height: 55 }}
-              />
-              <Typography variant="h6" sx={{ my: 5 }}>
-                Fragrance3
-              </Typography>
-              <Typography variant="h5">
-                {'Fragrance caption'}
-                {'caption continued.'}
-              </Typography>
-            </Box>
-          </Grid>
+          {fragranceCategories.map((category) => (
+            <Grid item xs={12} md={4} key={category.label}>
+              <Box sx={item}>
+                <Typography variant="h2" sx={{ mb: 2 }}>
+                  {category.icon}
+                </Typography>
+                <Typography variant="h6" sx={{ my: 3 }}>
+                  {category.label}
+                </Typography>
+                <Typography variant="h5" align="center">
+                  {category.description}
+                </Typography>
+              </Box>
+            </Grid>
+          ))}
         </Grid>
       </Container>
     </Box>
