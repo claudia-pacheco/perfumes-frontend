@@ -1,5 +1,7 @@
 ## Project 4: Cloud9 Scents ☁️
 
+###### <i> Seeded Data - this is a temporary workaround → Data is temporarily seeded because the original Heroku database is no longer available.</i>
+
 This is the fourth and last project associated with the General Assembly Software Engineering Flex course. I decided to go solo and develop a Full Stack app to showcase a perfume gallery where users can see and create fragrances. 
 
 Deployed at [Cloud9 Scents](https://cloud9-scents.netlify.app/) <br>
