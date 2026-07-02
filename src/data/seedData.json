@@ -1,0 +1,264 @@
+{
+  "brands": [
+    {
+      "id": 1,
+      "brand_name": "Chanel",
+      "creators_pic": "https://puls-img.chanel.com/1637588385997-1593781302517aboutchanelfounderherogabriellechaneldjpgmaxlglgjpeg_1444x1752_max_lg_lg.jpg",
+      "logo": "https://static.vecteezy.com/system/resources/thumbnails/023/400/850/small/chanel-brand-clothes-symbol-logo-black-design-fashion-illustration-free-vector.jpg",
+      "description": "The French couture house behind timeless luxury perfumes, iconic elegance, and modern classics.",
+      "country": "France",
+      "creators": "Gabrielle 'Coco' Chanel"
+    },
+    {
+      "id": 2,
+      "brand_name": "Dior",
+      "creators_pic": "https://media.vogue.co.uk/photos/5d546d4d77920900082a4bb2/2:3/w_2560%2Cc_limit/cdior-12_v_5apr12_rex_b.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Dior_Logo.svg/1280px-Dior_Logo.svg.png",
+      "description": "Haute couture and fragrance house known for dramatic elegance, innovative composition, and polished sophistication.",
+      "country": "France",
+      "creators": "Christian Dior"
+    },
+    {
+      "id": 3,
+      "brand_name": "Guerlain",
+      "creators_pic": "https://upload.wikimedia.org/wikipedia/en/thumb/8/85/Jacques_Guerlain.jpg/250px-Jacques_Guerlain.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Guerlain_logo_%282015%E2%80%932022%29.svg/1280px-Guerlain_logo_%282015%E2%80%932022%29.svg.png?_=20210622111154",
+      "description": "A historic perfume house celebrated for refined oriental classics, expert craftsmanship, and luxurious heritage.",
+      "country": "France",
+      "creators": "Pierre-Fran\u00e7ois Pascal Guerlain"
+    },
+    {
+      "id": 4,
+      "brand_name": "Tom Ford",
+      "creators_pic": "https://perfumesociety.org/wp-content/uploads/2014/03/TOM_FORD_PORTRAIT.jpg",
+      "logo": "https://1000logos.net/wp-content/uploads/2021/06/Tom-Ford-logo.png",
+      "description": "A contemporary luxury label known for bold, seductive fragrances and glamorous modern style.",
+      "country": "United States",
+      "creators": "Tom Ford"
+    },
+    {
+      "id": 5,
+      "brand_name": "Creed",
+      "creators_pic": "https://magnifissance.com/wp-content/uploads/2021/10/top_creed-perfume.jpg",
+      "logo": "https://images.seeklogo.com/logo-png/29/1/creed-1760-logo-png_seeklogo-290764.png",
+      "description": "A historic fragrance house favored by royalty, known for luxurious, meticulously blended signature scents.",
+      "country": "France",
+      "creators": "Olivier Creed"
+    },
+    {
+      "id": 6,
+      "brand_name": "Maison Francis Kurkdjian",
+      "creators_pic": "https://macaulifestyle.com/wp-content/uploads/2018/12/Maison-Francis-Kurkdjian-Macau-Lifestyle-MFK-Francis-Kurkdjian%C2%A9Nathalie-Baetens-2.jpg",
+      "logo": "https://brobstongroup.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fbrobstongroup-com.appspot.com%2Fcompany_logos%2F405943000001147651.png&w=384&q=75",
+      "description": "A French niche house creating luminous, elegant fragrances with exceptional balance and modern flair.",
+      "country": "France",
+      "creators": "Francis Kurkdjian"
+    },
+    {
+      "id": 7,
+      "brand_name": "Byredo",
+      "creators_pic": "https://www.datocms-assets.com/55010/1750671227-1750361021-ben-gorham-1-2.webp?auto=format%2Ccompress&cs=srgb",
+      "logo": "https://images.seeklogo.com/logo-png/41/2/byredo-logo-png_seeklogo-412546.png",
+      "description": "A Stockholm-born brand known for minimalist luxury, evocative storytelling, and modern aromatic perfumes.",
+      "country": "Sweden",
+      "creators": "Ben Gorham"
+    },
+    {
+      "id": 8,
+      "brand_name": "Le Labo",
+      "creators_pic": "https://cloudfront-eu-central-1.images.arcpublishing.com/businessoffashion/6AC7WZC5OVG7PC3BESPRSRRXKU.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/c/c1/Lelabologo.jpg",
+      "description": "An artisanal fragrance house focused on raw materials, hand-blended batches, and crafted sensory experiences.",
+      "country": "United States",
+      "creators": "Eddie Roschi"
+    },
+    {
+      "id": 9,
+      "brand_name": "Diptyque",
+      "creators_pic": "https://fragroom.com/wp-content/uploads/2021/04/Diptyque-Founders.jpg",
+      "logo": "https://images.seeklogo.com/logo-png/32/1/diptyque-logo-png_seeklogo-320785.png",
+      "description": "Parisian boutique perfumer known for poetic, elegant compositions and refined candle-inspired scents.",
+      "country": "France",
+      "creators": "Christiane Gautrot"
+    },
+    {
+      "id": 10,
+      "brand_name": "Jo Malone London",
+      "creators_pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWndHoJHIQ5iY8QmVEHMRmF02tT4oAAMFmdtKzFhjPw5qat2chmpGuTSbA&s=10",
+      "logo": "https://media.elcompanies.com/images/e/estee-lauder-companies/global/our-brands/jo-malone-london/jo-malone-london_black_1486x499_v3.png?h=499&iar=0&w=1486",
+      "description": "British fragrance house celebrated for fresh, elegant colognes designed for layering and individual expression.",
+      "country": "United Kingdom",
+      "creators": "Jo Malone"
+    },
+    {
+      "id": 11,
+      "brand_name": "Amouage",
+      "creators_pic": "https://gulfleaderscircle.com/wp-content/uploads/2025/02/Amouge.jpg",
+      "logo": "https://api-assets.wikiparfum.com/_resized/h2kwscw55yl4nmlt9jp7y5wtcbxuntr9so56teabkng53iueycwkt8dyjrdc-w750-q85.jpg",
+      "description": "A luxury Middle Eastern house known for rich, opulent oriental compositions and dramatic intensity.",
+      "country": "Oman",
+      "creators": "Royal Omani Court"
+    },
+    {
+      "id": 12,
+      "brand_name": "Kilian Paris",
+      "creators_pic": "https://scentury.com/wp-content/uploads/2023/01/kilian-hennessy-interview-1-1.jpg",
+      "logo": "https://media.elcompanies.com/images/e/estee-lauder-companies/global/our-brands/kilian/kilian%20paris%20logo_black_540x260px.png?h=260&iar=0&w=540",
+      "description": "A niche house blending gourmand sensuality, Parisian glamour, and bold fragrance storytelling.",
+      "country": "France",
+      "creators": "Kilian Hennessy"
+    }
+  ],
+  "perfumes": [
+    {
+      "id": 1,
+      "perfume_name": "Chanel No. 5",
+      "perfume_image": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Chanel_No._5_Fragrance_Austin_Calhoon_Photograph.jpg",
+      "creators_pic": "https://puls-img.chanel.com/1637588385997-1593781302517aboutchanelfounderherogabriellechaneldjpgmaxlglgjpeg_1444x1752_max_lg_lg.jpg",
+      "logo": "https://static.vecteezy.com/system/resources/thumbnails/023/400/850/small/chanel-brand-clothes-symbol-logo-black-design-fashion-illustration-free-vector.jpg",
+      "description": "The archetypal floral aldehyde with jasmine, rose, ylang-ylang, and warm sandalwood.",
+      "country": "France",
+      "creators": "Ernest Beaux"
+    },
+    {
+      "id": 2,
+      "perfume_name": "Bleu de Chanel",
+      "perfume_image": "https://cdn.media.amplience.net/i/frasersdev/75401069_o_a4?fmt=auto&upscale=true&w=450&h=450&v=20260304120143&sm=scaleFit&$h-ttl$",
+      "creators_pic": "https://puls-img.chanel.com/1637588385997-1593781302517aboutchanelfounderherogabriellechaneldjpgmaxlglgjpeg_1444x1752_max_lg_lg.jpg",
+      "logo": "https://static.vecteezy.com/system/resources/thumbnails/023/400/850/small/chanel-brand-clothes-symbol-logo-black-design-fashion-illustration-free-vector.jpg",
+      "description": "A refined aromatic woody scent with grapefruit, ginger, cedar, and incense.",
+      "country": "France",
+      "creators": "Jacques Polge"
+    },
+    {
+      "id": 3,
+      "perfume_name": "Sauvage",
+      "perfume_image": "https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Library-Sites-DiorSharedLibrary/default/dwf80880b6/images/beauty/01-FRAGRANCES/2025/PDP-REVAMP/SAUVAGE/Y0785220/POSTER_DIOR_SAUVAGE_CAPSULE_EDP_VA_916.jpg?sw=800",
+       "creators_pic": "https://media.vogue.co.uk/photos/5d546d4d77920900082a4bb2/2:3/w_2560%2Cc_limit/cdior-12_v_5apr12_rex_b.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Dior_Logo.svg/1280px-Dior_Logo.svg.png",
+      "description": "A rugged aromatic scent built on Calabrian bergamot, Sichuan pepper, and ambroxan.",
+      "country": "France",
+      "creators": "Fran\u00e7ois Demachy"
+    },
+    {
+      "id": 4,
+      "perfume_name": "Homme",
+      "perfume_image": "https://cdn.media.amplience.net/i/frasersdev/75330369_o_a4.jpg?v=20251218113107",
+      "creators_pic": "https://media.vogue.co.uk/photos/5d546d4d77920900082a4bb2/2:3/w_2560%2Cc_limit/cdior-12_v_5apr12_rex_b.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Dior_Logo.svg/1280px-Dior_Logo.svg.png",
+      "description": "A sleek iris-leather fragrance with vetiver, lavender, and warm amber.",
+      "country": "France",
+      "creators": "Fran\u00e7ois Demachy"
+    },
+    {
+      "id": 5,
+      "perfume_name": "Shalimar",
+      "perfume_image": "https://www.guerlain.com/dw/image/v2/BDCZ_PRD/on/demandware.static/-/Sites-GSA_master_catalog/default/dwd0b6697f/01-ProductsViewer/P011355/P011355_E02_hi-res.jpg?sw=655&sh=655",
+      "creators_pic": "https://upload.wikimedia.org/wikipedia/en/thumb/8/85/Jacques_Guerlain.jpg/250px-Jacques_Guerlain.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Guerlain_logo_%282015%E2%80%932022%29.svg/1280px-Guerlain_logo_%282015%E2%80%932022%29.svg.png?_=20210622111154",
+      "description": "An oriental masterpiece with bergamot, iris, vanilla, tonka bean, and soft incense.",
+      "country": "France",
+      "creators": "Jacques Guerlain"
+    },
+    {
+      "id": 6,
+      "perfume_name": "Black Orchid",
+      "perfume_image": "https://media.johnlewiscontent.com/i/JohnLewis/000096283alt1?fmt=auto&$background-off-white$",
+      "creators_pic": "https://perfumesociety.org/wp-content/uploads/2014/03/TOM_FORD_PORTRAIT.jpg",
+      "logo": "https://1000logos.net/wp-content/uploads/2021/06/Tom-Ford-logo.png",
+      "description": "A luxurious floral oriental built on black truffle, black orchid, and rich dark accords.",
+      "country": "United States",
+      "creators": "David Apel"
+    },
+    {
+      "id": 7,
+      "perfume_name": "Oud Wood",
+      "perfume_image": "https://hrd-live.cdn.scayle.cloud/images/6bf6891709f4e915e3a7cefb7f3d4b10.jpg?brightness=1&width=922&height=1230&quality=75&bg=ffffff",
+      "creators_pic": "https://perfumesociety.org/wp-content/uploads/2014/03/TOM_FORD_PORTRAIT.jpg",
+      "logo": "https://1000logos.net/wp-content/uploads/2021/06/Tom-Ford-logo.png",
+      "description": "A warm and exotic wood blend with oud, sandalwood, rosewood, and cardamom.",
+      "country": "United States",
+      "creators": "David Apel"
+    },
+    {
+      "id": 8,
+      "perfume_name": "Aventus",
+      "perfume_image": "https://www.scento.com/_next/image?url=https%3A%2F%2Fimagedelivery.net%2FdTnWiVKich4PS2lEWud18g%2F268ec5e7-a4e2-43ea-0693-0d1aec196f00%2Fcampaign&w=3840&q=75",
+      "creators_pic": "https://magnifissance.com/wp-content/uploads/2021/10/top_creed-perfume.jpg",
+      "logo": "https://images.seeklogo.com/logo-png/29/1/creed-1760-logo-png_seeklogo-290764.png",
+      "description": "A powerful fruity chypre with pineapple, blackcurrant, birch, and smoky musk.",
+      "country": "France",
+      "creators": "Olivier Creed"
+    },
+    {
+      "id": 9,
+      "perfume_name": "Silver Mountain Water",
+      "perfume_image": "https://creedboutique.com/cdn/shop/articles/SMW_395f8b55-012e-4526-b436-02546413cf0b-4122448.jpg?v=1779369315&width=493",
+      "creators_pic": "https://magnifissance.com/wp-content/uploads/2021/10/top_creed-perfume.jpg",
+      "logo": "https://images.seeklogo.com/logo-png/29/1/creed-1760-logo-png_seeklogo-290764.png",
+      "description": "A crisp aquatic fragrance with green tea, blackcurrant, and mineralic freshness.",
+      "country": "France",
+      "creators": "Olivier Creed"
+    },
+    {
+      "id": 10,
+      "perfume_name": "Baccarat Rouge 540",
+      "perfume_image": "https://www.franciskurkdjian.com/dw/image/v2/BJSB_PRD/on/demandware.static/-/Sites-mfk-master-catalog/default/dwbb692f8f/BR540_KV3_ALL_triptych_square_1080x1080.png?sw=500&sh=500&sfrm=jpg&q=85&strip=true",
+      "creators_pic": "https://macaulifestyle.com/wp-content/uploads/2018/12/Maison-Francis-Kurkdjian-Macau-Lifestyle-MFK-Francis-Kurkdjian%C2%A9Nathalie-Baetens-2.jpg",
+      "logo": "https://brobstongroup.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fbrobstongroup-com.appspot.com%2Fcompany_logos%2F405943000001147651.png&w=384&q=75",
+      "description": "A radiant amber floral with saffron, jasmine, cedarwood, and crystalline amber.",
+      "country": "France",
+      "creators": "Francis Kurkdjian"
+    },
+    {
+      "id": 11,
+      "perfume_name": "Gypsy Water",
+      "perfume_image": "https://www.scentedsamples.co.uk/cdn/shop/files/IMG-8003.jpg?v=1712243831&width=1946",
+      "creators_pic": "https://www.datocms-assets.com/55010/1750671227-1750361021-ben-gorham-1-2.webp?auto=format%2Ccompress&cs=srgb",
+      "logo": "https://images.seeklogo.com/logo-png/41/2/byredo-logo-png_seeklogo-412546.png",
+      "description": "A free-spirited aromatic scent with bergamot, juniper, incense, and sandalwood.",
+      "country": "Sweden",
+      "creators": "Ben Gorham"
+    },
+    {
+      "id": 12,
+      "perfume_name": "Santal 33",
+      "perfume_image": "https://lelabo.ips.photos/lelabo-java/images/skus/100PS33100__PRODUCT_01--IMG_1200--SANTAL33-1687759440.jpg",
+      "creators_pic": "https://cloudfront-eu-central-1.images.arcpublishing.com/businessoffashion/6AC7WZC5OVG7PC3BESPRSRRXKU.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/c/c1/Lelabologo.jpg",
+      "description": "A cult smoky woody fragrance built around sandalwood, cardamom, and leather.",
+      "country": "United States",
+      "creators": "Eddie Roschi"
+    },
+    {
+      "id": 13,
+      "perfume_name": "Philosykos",
+      "perfume_image": "https://www.diptyqueparis.com/media/catalog/product/p/h/philosykos_cagette_9x16_2025_x_3600px_vue-alt-pdp_rvb_diptyque.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=576&quality=90",
+      "creators_pic": "https://fragroom.com/wp-content/uploads/2021/04/Diptyque-Founders.jpg",
+      "logo": "https://images.seeklogo.com/logo-png/32/1/diptyque-logo-png_seeklogo-320785.png",
+      "description": "A green fig fragrance evoking leaves, milky sap, and sun-drenched Mediterranean woods.",
+      "country": "France",
+      "creators": "Christian Astuguevieille"
+    },
+    {
+      "id": 14,
+      "perfume_name": "Peony & Blush Suede",
+      "perfume_image": "https://www.jomalone.co.uk/media/export/cms/stories/july_20/peony_blush_suede/Related_Stories_Desktop_pretty-peony.jpg",
+       "creators_pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWndHoJHIQ5iY8QmVEHMRmF02tT4oAAMFmdtKzFhjPw5qat2chmpGuTSbA&s=10",
+      "logo": "https://media.elcompanies.com/images/e/estee-lauder-companies/global/our-brands/jo-malone-london/jo-malone-london_black_1486x499_v3.png?h=499&iar=0&w=1486",
+      "description": "A delicate floral fragrance of peony, red apple, jasmine, and soft suede.",
+      "country": "United Kingdom",
+      "creators": "Jo Malone"
+    },
+    {
+      "id": 15,
+      "perfume_name": "Love, Don\u2019t Be Shy",
+      "perfume_image": "https://www.sephora.co.uk/img/prod/pid/P10051443/93091_media_4_07-08-25-16-27-26_main.jpg",
+      "creators_pic": "https://scentury.com/wp-content/uploads/2023/01/kilian-hennessy-interview-1-1.jpg",
+      "logo": "https://media.elcompanies.com/images/e/estee-lauder-companies/global/our-brands/kilian/kilian%20paris%20logo_black_540x260px.png?h=260&iar=0&w=540",
+      "description": "A sweet gourmand floral with orange blossom, marshmallow, honey, and vanilla.",
+      "country": "France",
+      "creators": "Kilian Hennessy"
+    }
+  ]
+}

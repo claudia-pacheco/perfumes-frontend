@@ -1,12 +1,11 @@
 import * as React from 'react';
-import { useEffect, useState } from "react";
-import axios from 'axios';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Typography from './Typography';
 import Button from "./Button";
 import { styled } from "@mui/material/styles";
 import ButtonBase from "@mui/material/ButtonBase";
+import seedData from '../data/seedData.json';
 
 
 const ImageBackdrop = styled("div")(({ theme }) => ({
@@ -58,27 +57,7 @@ const ImageIconButton = styled(ButtonBase)(({ theme }) => ({
 }));
 
 function Perfumes() {
-    const [perfumes, setPerfumes] = useState([]);
-
-    useEffect(() => {
-        axios({
-            method: "get",
-            url: "https://cloud9-scents.herokuapp.com/perfumes/",
-        })
-            .then((response) => {
-                console.log(`perfumes data: `);
-                console.log(response.data);
-
-                // reload
-                // Setting the data to State
-                setPerfumes(response.data);
-
-            })
-            .catch((error) => {
-                console.log(error);
-            });
-    }, []);
-    console.log('this is id', perfumes.id);
+    const perfumes = seedData.perfumes;
     return (
         <Container component="section" sx={{ mt: 8, mb: 4 }}>
             <Typography variant="h4" marked="center" align="center" component="h2">

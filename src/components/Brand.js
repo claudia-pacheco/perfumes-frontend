@@ -1,11 +1,10 @@
-import { useEffect, useState } from "react";
-import axios from "axios";
 import * as React from "react";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import Typography from "./Typography";
 import { useParams } from "react-router-dom";
 import withRoot from './withRoot.js'
+import seedData from '../data/seedData.json';
 
 const item = {
     display: 'flex',
@@ -16,28 +15,18 @@ const item = {
     mt: 5
 };
 function Brand() {
-
-    const [brand, setBrand] = useState([]);
     const { brandId } = useParams();
+    const brand = seedData.brands.find((item) => String(item.id) === String(brandId));
 
-    useEffect(() => {
-        console.log(brandId);
-        axios({
-            method: "get",
-            url: `https://cloud9-scents.herokuapp.com/brands/${brandId}`,
-        })
-            .then((response) => {
-                console.log(`brand data: `);
-                console.log(response.data);
-
-                // reload
-                // Setting the data to State
-                setBrand(response.data);
-            })
-            .catch((error) => {
-                console.log(error);
-            });
-    }, [brandId]);
+    if (!brand) {
+        return (
+            <Container component="section" sx={{ mt: 8, mb: 4 }}>
+                <Typography variant="h4" marked="center" align="center" component="h2">
+                    Brand not found
+                </Typography>
+            </Container>
+        );
+    }
 
     return (
         <Container component="section" sx={{ mt: 8, mb: 4 }}>

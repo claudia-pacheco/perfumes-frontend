@@ -1,11 +1,10 @@
-import { useEffect, useState } from "react";
-import axios from "axios";
 import * as React from "react";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import Typography from "./Typography";
 import { useParams } from "react-router-dom";
 import withRoot from './withRoot.js'
+import seedData from '../data/seedData.json';
 
 const item = {
     display: 'flex',
@@ -16,31 +15,18 @@ const item = {
     mt: 5
 };
 function Perfume() {
-
-    const [perfume, setPerfume] = useState([]);
     const { perfumeId } = useParams();
+    const perfume = seedData.perfumes.find((item) => String(item.id) === String(perfumeId));
 
-    useEffect(() => {
-        console.log(perfumeId);
-        axios({
-            method: "get",
-            url: `https://cloud9-scents.herokuapp.com/perfumes/${perfumeId}`,
-            headers: {
-                Authorization: `Bearer ${localStorage.getItem("access")}`,
-            },
-        })
-            .then((response) => {
-                console.log(`perfume data: `);
-                console.log(response.data);
-
-                // reload
-                // Setting the data to State
-                setPerfume(response.data);
-            })
-            .catch((error) => {
-                console.log(error);
-            });
-    }, [perfumeId]);
+    if (!perfume) {
+        return (
+            <Container component="section" sx={{ mt: 8, mb: 4 }}>
+                <Typography variant="h4" marked="center" align="center" component="h2">
+                    Perfume not found
+                </Typography>
+            </Container>
+        );
+    }
 
     return (
         <Container component="section" sx={{ mt: 8, mb: 4 }}>
@@ -56,7 +42,7 @@ function Perfume() {
                 <Box display='flex' alignItems="center">
                     <Box component="img"
                         height='450px'
-                        src={perfume.creators_pic}
+                        src={perfume.perfume_image}
                         alt="perfume-creator"
                         sx={{ mr: 4 }}>
 

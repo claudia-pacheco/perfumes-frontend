@@ -1,12 +1,11 @@
-import { useEffect, useState } from "react";
-import axios from "axios";
-import Button from "./Button";
 import * as React from "react";
+import Button from "./Button";
 import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import ButtonBase from "@mui/material/ButtonBase";
 import Container from "@mui/material/Container";
-import Typography from "../components/Typography";
+import Typography from "./Typography";
+import seedData from '../data/seedData.json';
 
 const ImageBackdrop = styled("div")(({ theme }) => ({
     position: "absolute",
@@ -57,24 +56,7 @@ const ImageIconButton = styled(ButtonBase)(({ theme }) => ({
 }));
 
 function Brands() {
-    const [brands, setBrands] = useState([]);
-    useEffect(() => {
-        axios({
-            method: "get",
-            url: "https://cloud9-scents.herokuapp.com/brands/",
-        })
-            .then((response) => {
-                console.log(`brands data: `);
-                console.log(response.data);
-                // reload
-                // Setting the data to State
-                setBrands(response.data);
-
-            })
-            .catch((error) => {
-                console.log(error);
-            });
-    }, []);
+    const brands = seedData.brands;
     return (
         <Container component="section" sx={{ mt: 8, mb: 4 }}>
             <Typography variant="h4" marked="center" align="center" component="h2">
